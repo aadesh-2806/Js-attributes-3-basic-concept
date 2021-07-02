@@ -1,0 +1,397 @@
+console.log("Hello Welcome To The Program");
+let va;
+va = 3+4;
+console.log("Thankyou ByeBye");
+integer type:
+
+	1+2
+	3
+
+	445645566+2435657
+	448081223
+	
+	1.999999999999999
+	1.999999999999999
+	
+	1.9999999999999999
+	2
+_____________________________________
+General:
+	3+1//*4
+	4
+
+	//comments
+
+	1/0
+	Infinity
+
+	1/Infinity
+	0
+________________________
+Nan:
+	0/0
+	NaN
+	
+	1+NaN
+	NaN
+	
+	typeof 1
+	"number"
+	
+	typeof 1.3456
+	"number"
+	
+	typeof NaN
+	"number"
+	
+	Infinity - Infinity
+	NaN
+_____________________________
+geberal var:
+	3**2
+	9
+	
+	a=2
+	2
+	
+	a+5
+	7
+	
+	b=6
+	6
+	
+	c=8
+		8
+	
+	a+b+c
+	16
+		
+	let x=5;
+	undefined
+	
+	let y=9;
+	undefined
+	
+	x+y
+	14
+	
+	x++;
+	5
+	
+	x
+	6
+	
+	const a=5;
+	undefined
+
+	a
+	5
+	
+	a=1;
+	VM959:1 Uncaught TypeError: Assignment to constant variable.
+	    at <anonymous>:1:2
+	(anonymous) @ VM959:1
+	
+	let b=23.5
+	undefined
+	
+	b
+	23.5
+	
+	var run=26.2
+	undefined
+	
+	run
+	26.2
+	
+	truth
+	VM1105:1 Uncaught ReferenceError: truth is not defined
+	    at <anonymous>:1:1
+	(anonymous) @ VM1105:1
+	
+	true
+	true
+	
+	let tr=true
+	undefined
+	
+	tr
+	true	
+	
+	tr=false
+	false
+_________________________________
+isTrue:	
+	let istrue = 2
+	undefined
+	
+	istrue=true
+	true
+________________________________
+strings:	
+	let user="dfg"
+	undefined 
+		
+	user
+	"dfg"
+	
+	'23'
+	"23"	
+
+	'asd'
+	"asd"
+	
+	''jj''
+	VM1620:1 Uncaught SyntaxError: Unexpected identifier
+	
+	cvb="ghjuu"
+	"ghjuu"
+	
+	cvb[0]
+	"g"
+	
+	cvb["length"]
+	5
+	
+	cvb[3]
+	"u"
+
+	cvb+="dfg"
+	"ghjuudfg"
+________________________________
+.attributes in elements:	
+	cvb.length
+	8
+	
+	let msg="i know how you feel at times"
+	undefined
+	
+	msg.toLocaleUpperCase
+	ƒ toLocaleUpperCase() { [native code] }
+	
+	msg.toLocaleUpperCase()
+	"I KNOW HOW YOU FEEL AT TIMES"
+	
+    msg.toLowerCase()
+    "i know how you feel at times"
+
+    let trim=" i know how you feel at time i say  "
+    undefined
+
+    trim
+    " i know how you feel at time i say  "
+
+    trim.trim()
+    "i know how you feel at time i say"
+
+    let hello="   bsjfsjbajbfabfj      "
+    undefined
+
+    hello.trim().toUpperCase()
+    "BSJFSJBAJBFABFJ"
+
+    hello.trim().toUpperCase().length
+    15
+_______________________________________________________
+,attribute(with parenthesis value):
+    let asd="caterpilar"
+    undefined
+    
+    asd.indexOf("a")
+    1
+    
+    asd.indexOf("ter")
+    2
+
+    asd.indexOf("s")
+    -1
+
+    asd.indexOf("A")
+    -1
+
+    "haha that's so funny!".slice(5)
+    "that's so funny!"
+
+    "haha that's so funny!".slice(3)
+    "a that's so funny!"
+
+    "haha that's so funny!".slice(3,17)
+    "a that's so fu"
+
+    asd.slice(3)
+    "erpilar"
+
+    asd
+    "caterpilar"
+
+    asd.slice(-3)
+    "lar"
+
+    asd.slice(-1)
+    "r"
+
+    asd.replace('pilar' , 'dog')
+    "caterdog"
+
+    asd.replaceAll('a' , 'dog')
+    "cdogterpildogr"
+
+    "haha".repeat(10)
+    "hahahahahahahahahahahahahahahahahahahaha"
+________________________________________________________
+within string attributes:
+    let product="artichoke"
+    undefined
+
+    let price="2.25"
+    undefined
+
+    let qty = 5
+    undefined
+
+    price=2.25
+    2.25
+
+    "You Bought " + qty " " + product + ".Total: " + qty*price
+    VM889:1 Uncaught SyntaxError: Unexpected string
+
+    "You Bought " + qty + " " + product + ".Total: " + qty*price
+    "You Bought 5 artichoke.Total: 11.25"
+
+    `i counted 3+4 as ${3+4} `
+    "i counted 3+4 as 7 "
+
+    `i counted total by ${qty*price} `
+    "i counted total by 11.25 "
+
+    `i counted total by ${qty*price} ` + "sdfh"
+    "i counted total by 11.25 sdfh"
+__________________________________________________
+Math attribute:
+    Math
+    
+	Math {abs: ƒ, acos: ƒ, acosh: ƒ, asin: ƒ, asinh: ƒ, …}E: 2.718281828459045LN2: 0.6931471805599453LN10: 2.302585092994046LOG2E: 1.4426950408889634LOG10E: 0.4342944819032518PI: 3.141592653589793SQRT1_2: 0.7071067811865476SQRT2: 1.4142135623730951abs: ƒ abs()arguments: (...)caller: (...)length: 1name: "abs"__proto__: ƒ ()apply: ƒ apply()arguments: (...)bind: ƒ bind()call: ƒ call()caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()__proto__: Object[[FunctionLocation]]: <unknown>[[Scopes]]: Scopes[0][[Scopes]]: Scopes[0]acos: ƒ acos()acosh: ƒ acosh()asin: ƒ asin()asinh: ƒ asinh()atan: ƒ atan()atan2: ƒ atan2()atanh: ƒ atanh()cbrt: ƒ cbrt()ceil: ƒ ceil()clz32: ƒ clz32()cos: ƒ cos()cosh: ƒ cosh()exp: ƒ exp()expm1: ƒ expm1()floor: ƒ floor()fround: ƒ fround()hypot: ƒ hypot()imul: ƒ imul()log: ƒ log()log1p: ƒ log1p()log2: ƒ log2()log10: ƒ log10()arguments: (...)caller: (...)length: 1name: "log10"__proto__: ƒ ()[[Scopes]]: Scopes[0]max: ƒ max()min: ƒ min()pow: ƒ pow()random: ƒ random()round: ƒ round()sign: ƒ sign()sin: ƒ sin()sinh: ƒ sinh()sqrt: ƒ sqrt()arguments: (...)caller: (...)length: 1name: "sqrt"__proto__: ƒ ()apply: ƒ apply()arguments: (...)bind: ƒ bind()call: ƒ call()arguments: (...)caller: (...)length: 1name: "call"__proto__: ƒ ()[[Scopes]]: Scopes[0]caller: (...)constructor: ƒ Function()length: 0name: ""toString: ƒ toString()Symbol(Symbol.hasInstance): ƒ [Symbol.hasInstance]()get arguments: ƒ ()set arguments: ƒ ()get caller: ƒ ()set caller: ƒ ()__proto__: Object[[FunctionLocation]]: <unknown>[[Scopes]]: Scopes[0][[Scopes]]: Scopes[0]No propertiestan: ƒ tan()tanh: ƒ tanh()trunc: ƒ trunc()Symbol(Symbol.toStringTag): "Math"__proto__: Object
+
+    Math.PI
+    3.141592653589793
+
+    Math.floor(2111.999999999999)
+    2111
+
+    Math.floor(2111.9999999999999)
+    2112
+
+    Math.ceil(35.1)
+    36
+
+    Math.random()
+    0.5709221269411155
+
+    Math.random()
+    0.6877943851612656
+
+    Math.random()
+    0.5093769581620742
+
+    Math.random()*5
+    4.91942810282329
+
+    Math.floor(Math.random()*5)
+    3
+
+    Math.floor(Math.random()*5)
+    2
+
+    Math.floor(Math.random()*5)
+    1
+
+    Math.floor(Math.random()*5)
+    1
+
+    Math.random()*5
+    3.1975649087526437
+
+    Math.floor(Math.random()*5)
+    0
+___________________________________
+comparators:
+    1>2
+    false
+
+    2>1
+    true
+
+    1<=2
+    true
+
+    1!=2
+    true
+
+    !1
+    false
+
+    1
+    1
+
+    1==2
+    false
+
+    1===2//strict inequality
+    false
+
+    '1'==1
+    true
+
+    '1'===1
+    false
+
+    //type os mot taken by ==  but taken by ===
+
+    0==false
+    true
+
+    0===false
+    false
+
+    1!='1'
+    false
+
+    1!=='1'
+    true
+_________________________________________________
+console:
+
+    console {debug: ƒ, error: ƒ, info: ƒ, log: ƒ, warn: ƒ, …}assert: ƒ assert()clear: ƒ clear()context: ƒ context()count: ƒ count()countReset: ƒ countReset()debug: ƒ debug()dir: ƒ dir()dirxml: ƒ dirxml()error: ƒ error()group: ƒ group()groupCollapsed: ƒ groupCollapsed()groupEnd: ƒ groupEnd()info: ƒ info()log: ƒ log()memory: (...)profile: ƒ profile()profileEnd: ƒ profileEnd()table: ƒ table()time: ƒ time()timeEnd: ƒ timeEnd()timeLog: ƒ timeLog()timeStamp: ƒ timeStamp()trace: ƒ trace()warn: ƒ warn()Symbol(Symbol.toStringTag): "Object"get memory: ƒ ()set memory: ƒ ()__proto__: Object
+
+    console.log("Hello")
+    VM2086:1 Hello
+    undefined
+
+    console.warn("warning")
+    VM2239:1 warning
+    (anonymous) @ VM2239:1
+    undefined
+
+    console.error("attention")
+    VM2300:1 attention
+    (anonymous) @ VM2300:1
+    undefined
+
+    alert("hi there")
+    undefined
+
+    let userno = prompt("enter a no")
+    undefined
+
+    userno
+    "12"
+____________________________________________
+conversion:
+    parseFloat(12.33456)
+    12.33456
+    
+    parseFloat("12.123")
+    12.123
+
+    parseInt("12.123")
+    12
